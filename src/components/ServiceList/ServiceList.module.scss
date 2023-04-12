@@ -1,0 +1,18 @@
+@import "src/styles/variables.module";
+
+.List {
+  height: 500px;
+  margin: 15px 0;
+  background-color: var(--primary-color);
+  border-radius: var(--border-radius);
+  &Title{
+    font-family: var(--font-banner);
+    font-size: 25px;
+    //margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+
+  }
+
+
+}
