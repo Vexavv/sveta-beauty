@@ -1,63 +1,9 @@
-@import "src/styles/variables.module";
-
-.Banner {
-  background-image: url("https://res.cloudinary.com/dj9e1wjcg/image/upload/v1681139919/Sveta-beauty/About/146914-kozha-spa-chajnaya_chashka-massazh-ruka-1920x1080_vdtw3o.jpg");
+.Banner{
+  background-image: url("https://res.cloudinary.com/dj9e1wjcg/image/upload/v1681994648/Sveta-beauty/Banner/flower-7590141_1280_hbgobk.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   width: 100%;
   box-sizing: border-box;
-
-  &Discriptions {
-    margin: 0 auto;
-    padding: 50px;
-
-    &Text {
-      font-family: var(--font-banner);
-      font-size: 20px;
-      color: #525151;
-      padding: 20px;
-      text-align: center;
-      border: 2px solid var(--border-color);
-      background-color: rgba(244, 243, 243, 0.5);
-
-    }
-  }
-}
-
-@media (min-width: 600px) {
-  .Banner {
-
-    &Discriptions {
-      &Text {
-        font-size: 25px;
-      }
-    }
-  }
-
-}
-
-@media (min-width: 900px) {
-  .Banner {
-
-    &Discriptions {
-      padding: 70px;
-      &Text {
-        font-size: 35px;
-        border-radius: 5px;
-        border: none;
-        max-width: 1200px;
-        display: block;
-        margin: 0 auto;
-
-        &:hover {
-          box-shadow: 5px 5.5px 20.5px 27.5px #f1abab;
-          transition: all .5s ease;
-          background-color: rgba(244, 243, 243, 0.8);
-        }
-      }
-    }
-  }
-
+  height: 500px;
 }
