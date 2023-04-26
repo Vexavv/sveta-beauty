@@ -1,15 +1,26 @@
 
-import styles from "../components/ServiceList/ServiceList.module.scss";
 import {Link} from "react-router-dom";
 
 
-export  const renderDataList = (data) => {
+export  const renderDataList = (data, style) => {
     return (
-        <ul className={styles.ListContentDescriptionList}>
+        <ul className={style}>
             {data.map(item => (
-                <Link to="/services" key={item.id}>
-                    <li>{item.title}</li>
-                </Link>
+                <li key={item.id}>
+                    <Link to="/services">{item.title} </Link>
+                </li>
+            ))}
+        </ul>
+    );
+}
+
+export  const renderPriceList = (data, style) => {
+    return (
+        <ul className={style}>
+            {data.map(item => (
+                <li key={item.id}>
+                    <Link to="/services">{item.title}: {item.minPrice} гривень </Link>
+                </li>
             ))}
         </ul>
     );
