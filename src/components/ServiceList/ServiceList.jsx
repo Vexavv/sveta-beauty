@@ -11,7 +11,6 @@ function ServiceList(props) {
                 <div className={styles.ListContentDescription}>
                     <h2 className={styles.ListContentDescriptionTitle}>Нігтьовий сервіс</h2>
                     {renderDataList(nails, styles.ListContentDescriptionList)}
-
                 </div>
                 <div className={styles.ListContentDescription}>
                     <h2 className={styles.ListContentDescriptionTitle}>Перманентний макіяж</h2>

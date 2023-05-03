@@ -1,7 +1,11 @@
 export const nails = [
     {
         id: 1,
-        imageUrl: [],
+        imageUrl: ['https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682012739/Sveta-beauty/Product%20card/Nails/Manik/imgonline-com-ua-Resize-taBuhyhbTHwj_j4ui2v.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682012224/Sveta-beauty/Product%20card/Nails/Manik/imgonline-com-ua-Resize-ppKdN2CjTf40G_ooquno.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682012224/Sveta-beauty/Product%20card/Nails/Manik/imgonline-com-ua-Resize-gdwQwrOuhm4_uhi3yt.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682012223/Sveta-beauty/Product%20card/Nails/Manik/imgonline-com-ua-Resize-9HLUW3pUp7QVT_ci12cm.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682012223/Sveta-beauty/Product%20card/Nails/Manik/imgonline-com-ua-Resize-7ekghc1FSUop_sf19p6.jpg'],
         title: 'Манікюр',
         minPrice: 450,
         maxPrice: 550,
@@ -11,7 +15,11 @@ export const nails = [
     },
     {
         id: 2,
-        imageUrl: [],
+        imageUrl: ['https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683118717/Sveta-beauty/Product%20card/Nails/Gel%20lak/IMG_2842_ll9ptd.png',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683118717/Sveta-beauty/Product%20card/Nails/Gel%20lak/IMG_3407_1_wpcloa.png',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683118717/Sveta-beauty/Product%20card/Nails/Gel%20lak/IMG_2365_1_zgaz8q.png',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683118717/Sveta-beauty/Product%20card/Nails/Gel%20lak/IMG_5938_1_ptvjdk.png',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683118717/Sveta-beauty/Product%20card/Nails/Gel%20lak/IMG_6134_1_ec3m1k.png'],
         title: 'Однотонне покриття гель лаком',
         minPrice: 350,
         maxPrice: 450,
@@ -31,7 +39,7 @@ export const nails = [
     },
     {
         id: 4,
-        imageUrl: [],
+        imageUrl: ['https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683120251/Sveta-beauty/Product%20card/Nails/Kompleks%20gel%20lak/IMG_4215_iqzxjk.jpg'],
         title: 'Манікюрний комплекс',
         minPrice: 600,
         maxPrice: 700,
@@ -51,7 +59,12 @@ export const nails = [
     },
     {
         id: 6,
-        imageUrl: [],
+        imageUrl: ['https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682689999/Sveta-beauty/Product%20card/Nails/Nar%20nails/IMG_1554_pi9tfq.png',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682690199/Sveta-beauty/Product%20card/Nails/Nar%20nails/IMG_5701_opmzzb.png',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682690196/Sveta-beauty/Product%20card/Nails/Nar%20nails/IMG_4484_pglu6u.png',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682690200/Sveta-beauty/Product%20card/Nails/Nar%20nails/IMG_5740_spqfic.png',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682690199/Sveta-beauty/Product%20card/Nails/Nar%20nails/IMG_6422_qbij3s.png',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682690200/Sveta-beauty/Product%20card/Nails/Nar%20nails/IMG_4923_ydvx2i.png'],
         title: 'Нарощування нігтів гель, полігель',
         minPrice: 1000,
         maxPrice: 800,
@@ -61,7 +74,11 @@ export const nails = [
     },
     {
         id: 7,
-        imageUrl: [],
+        imageUrl: ['https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683120579/Sveta-beauty/Product%20card/Nails/korrection%20nails/IMG_5695_i1qbi6.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683120579/Sveta-beauty/Product%20card/Nails/korrection%20nails/Snapseed_x94cya.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683120579/Sveta-beauty/Product%20card/Nails/korrection%20nails/IMG_5408_1_fmszge.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683120579/Sveta-beauty/Product%20card/Nails/korrection%20nails/IMG_6421_yepy5v.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683120649/Sveta-beauty/Product%20card/Nails/korrection%20nails/IMG_0962_1_1_kjlcgj.jpg'],
         title: 'Корекція нарощених нігтів',
         minPrice: 800,
         maxPrice: 800,
@@ -71,7 +88,10 @@ export const nails = [
     },
     {
         id: 8,
-        imageUrl: [],
+        imageUrl: ['https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682965450/Sveta-beauty/Product%20card/Nails/Nail_franch/IMG_8082_1_uegluk.png',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682690790/Sveta-beauty/Product%20card/Nails/Nail_franch/IMG_8454_ygaq0i.png',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682690790/Sveta-beauty/Product%20card/Nails/Nail_franch/IMG_6549_htbdyx.png',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682965448/Sveta-beauty/Product%20card/Nails/Nail_franch/IMG_6548_1_livgok.png'],
         title: 'Викладний френч',
         minPrice: 1200,
         maxPrice: 0,
@@ -81,7 +101,10 @@ export const nails = [
     },
     {
         id: 9,
-        imageUrl: [],
+        imageUrl: ['https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683121418/Sveta-beauty/Product%20card/Nails/pedic/p3_aiudt9.webp',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683121419/Sveta-beauty/Product%20card/Nails/pedic/IMG_4761_1_nhqii0.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683121418/Sveta-beauty/Product%20card/Nails/pedic/klassicheskij-pedijur_odohri.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683121419/Sveta-beauty/Product%20card/Nails/pedic/5654-1_enhpiu.jpg'],
         title: 'Педекюр класичний',
         minPrice: 500,
         maxPrice: 0,
@@ -91,7 +114,9 @@ export const nails = [
     },
     {
         id: 10,
-        imageUrl: [],
+        imageUrl: ['https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683122437/Sveta-beauty/Product%20card/Nails/pedic_classic/14607_2_fegdwj.jpg',
+        'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683122437/Sveta-beauty/Product%20card/Nails/pedic_classic/IMG_5276_lualjo.jpg',
+        'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683122437/Sveta-beauty/Product%20card/Nails/pedic_classic/french4_i7efeg.jpg'],
         title: 'Педекюр (комплекс)',
         minPrice: 700,
         maxPrice: 0,
@@ -101,7 +126,12 @@ export const nails = [
     },
     {
         id: 11,
-        imageUrl: [],
+        imageUrl: ['https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683121627/Sveta-beauty/Product%20card/Nails/pedic_french/2-11_nek4ww.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683121814/Sveta-beauty/Product%20card/Nails/pedic_french/modnyj-french-pedikyur-novinki-2_uf13kx.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683121813/Sveta-beauty/Product%20card/Nails/pedic_french/21-1-700x450_in5v9j.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683121814/Sveta-beauty/Product%20card/Nails/pedic_french/2794627_u3gyfk.jpg',
+
+        ],
         title: 'Педекюр (комплекс-френч)',
         minPrice: 800,
         maxPrice: 0,
@@ -111,7 +141,10 @@ export const nails = [
     },
     {
         id: 12,
-        imageUrl: [],
+        imageUrl: ['https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683123042/Sveta-beauty/Product%20card/Nails/parafin/IMG_8971_q4swpu.jpg',
+        'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683123042/Sveta-beauty/Product%20card/Nails/parafin/SPA_manikyur_kdsycp.jpg',
+        'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683123042/Sveta-beauty/Product%20card/Nails/parafin/Picture1_251_ujmpfi.png',
+        'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683123042/Sveta-beauty/Product%20card/Nails/parafin/2409115_hb7feh.jpg'],
         title: 'Парафіно терапія ( спа комплекс для рук)',
         minPrice: 400,
         maxPrice: 0,
@@ -228,67 +261,67 @@ export const brows = [
 
 export const gallery = [
     {
-        img:'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682273001/Sveta-beauty/About/masonry/IMG_5403_xag3zk.jpg',
+        img: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682273001/Sveta-beauty/About/masonry/IMG_5403_xag3zk.jpg',
         title: 'red long nails'
     },
     {
-        img:'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682273001/Sveta-beauty/About/masonry/IMG_6421_ufukdo.jpg',
+        img: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682273001/Sveta-beauty/About/masonry/IMG_6421_ufukdo.jpg',
         title: 'white long nails'
     },
     {
-        img:'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682273001/Sveta-beauty/About/masonry/IMG_6647_psvwli.jpg',
+        img: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682273001/Sveta-beauty/About/masonry/IMG_6647_psvwli.jpg',
         title: 'mizhvii'
     },
     {
-        img:'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682273001/Sveta-beauty/About/masonry/IMG_6646_bxp9n2.jpg',
+        img: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682273001/Sveta-beauty/About/masonry/IMG_6646_bxp9n2.jpg',
         title: 'mizhvii'
     },
     {
-        img:'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682273000/Sveta-beauty/About/masonry/IMG_6645_j2fchv.jpg',
+        img: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682273000/Sveta-beauty/About/masonry/IMG_6645_j2fchv.jpg',
         title: 'mizhvii'
     },
     {
-        img:'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682273000/Sveta-beauty/About/masonry/IMG_6548_inp5yi.jpg',
+        img: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682273000/Sveta-beauty/About/masonry/IMG_6548_inp5yi.jpg',
         title: 'long nails'
     },
     {
-        img:'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682272999/Sveta-beauty/About/masonry/IMG_6417_own4ye.jpg',
+        img: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682272999/Sveta-beauty/About/masonry/IMG_6417_own4ye.jpg',
         title: 'brows'
     },
     {
-        img:'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682272999/Sveta-beauty/About/masonry/IMG_6549_iyauf6.jpg',
+        img: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682272999/Sveta-beauty/About/masonry/IMG_6549_iyauf6.jpg',
         title: 'nails franche'
     },
     {
-        img:'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682275344/Sveta-beauty/About/masonry/IMG_2842_lf3ibr.png',
+        img: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682275344/Sveta-beauty/About/masonry/IMG_2842_lf3ibr.png',
         title: 'nails pink'
     },
     {
-        img:'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682274999/Sveta-beauty/About/masonry/IMG_4484_kr3jam.jpg',
+        img: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682274999/Sveta-beauty/About/masonry/IMG_4484_kr3jam.jpg',
         title: 'nail with hart'
     },
     {
-        img:'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682275760/Sveta-beauty/About/masonry/IMG_3407_tchx7l.png',
+        img: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682688173/Sveta-beauty/About/masonry/IMG_3407_jypfsh.png',
         title: 'white nails'
     },
     {
-        img:'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682272998/Sveta-beauty/About/masonry/IMG_4215_knwmag.jpg',
+        img: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682272998/Sveta-beauty/About/masonry/IMG_4215_knwmag.jpg',
         title: 'white nails'
     },
     {
-        img:'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682275476/Sveta-beauty/About/masonry/IMG_1965_ieakih.png',
+        img: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682275476/Sveta-beauty/About/masonry/IMG_1965_ieakih.png',
         title: 'lips'
     },
     {
-        img:'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682275943/Sveta-beauty/About/masonry/IMG_2365_hwf57f.png',
+        img: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682275943/Sveta-beauty/About/masonry/IMG_2365_hwf57f.png',
         title: 'nails'
     },
     {
-        img:'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682272996/Sveta-beauty/About/masonry/FullSizeRender_lhbeuh.jpg',
+        img: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682272996/Sveta-beauty/About/masonry/FullSizeRender_lhbeuh.jpg',
         title: 'brows'
     },
     {
-        img:'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682275647/Sveta-beauty/About/masonry/IMG_5701_lnesdn.jpg',
+        img: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682275647/Sveta-beauty/About/masonry/IMG_5701_lnesdn.jpg',
         title: 'blue nails'
     },
 ]

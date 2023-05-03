@@ -1,0 +1,52 @@
+@import "src/styles/variables.module";
+.List{
+  margin: 15px 0;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-color);
+  border-radius: var(--border-radius);
+  -webkit-box-shadow: 0 3px 15px 13.5px #6b6666;
+  -moz-box-shadow: 0 3px 15px 13.5px #6b6666;
+  box-shadow: 0 3px 15px 13.5px #6b6666;
+  &Title{
+    font-family: var(--font-banner);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+    text-decoration: underline;
+    text-align: center;
+  }
+  &Content{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 5px 10px;
+
+
+  }
+
+}
+@media (min-width: 600px){
+  .List{
+    &Title{
+      font-family: var(--font-banner);
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px 0;
+      text-decoration: underline;
+      text-align: center;
+    }
+    &Content{
+      display: flex;
+      flex-direction: row;
+flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 5px 10px;
+
+
+    }
+
+  }
+}
