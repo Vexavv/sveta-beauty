@@ -1,9 +1,9 @@
 import {combineReducers, configureStore} from "@reduxjs/toolkit";
 import thunk from 'redux-thunk';
-import mainReduser from './mainSlice'
+import mainReducer from './mainSlice'
 
 const rootReducer = combineReducers({
-main: mainReduser
+main: mainReducer
 })
 const store = configureStore({
     reducer: rootReducer,
