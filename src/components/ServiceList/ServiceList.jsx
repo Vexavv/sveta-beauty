@@ -6,18 +6,18 @@ import {renderDataList} from "../../helpers/dataHelpers";
 function ServiceList(props) {
     return (
         <div className={styles.List}>
-            <h3 className={styles.ListTitle}>Наши послуги</h3>
+            <h2 className={styles.ListTitle}>Наши послуги</h2>
             <div className={styles.ListContent}>
                 <div className={styles.ListContentDescription}>
-                    <h2 className={styles.ListContentDescriptionTitle}>Нігтьовий сервіс</h2>
+                    <h3 className={styles.ListContentDescriptionTitle}>Нігтьовий сервіс</h3>
                     {renderDataList(nails, styles.ListContentDescriptionList)}
                 </div>
                 <div className={styles.ListContentDescription}>
-                    <h2 className={styles.ListContentDescriptionTitle}>Перманентний макіяж</h2>
+                    <h3 className={styles.ListContentDescriptionTitle}>Перманентний макіяж</h3>
                     {renderDataList(permanent, styles.ListContentDescriptionList)}
                 </div>
                 <div className={styles.ListContentDescription}>
-                    <h2 className={styles.ListContentDescriptionTitle}>Макіяж брів</h2>
+                    <h3 className={styles.ListContentDescriptionTitle}>Макіяж брів</h3>
                     {renderDataList(brows, styles.ListContentDescriptionList)}
                 </div>
             </div>

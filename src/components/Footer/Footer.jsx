@@ -15,12 +15,12 @@ function Footer(props) {
                     </span>
                         <span className={styles.FooterContentPhone}>
                         Phone:
-                        <Link to='tel:+380501899094'><span>+3 8(050) 189 90 94</span></Link>
-                        <Link to='tel:+380982941708'><span>+3 8(098) 294 17 08</span></Link>
+                        <a href='tel:+380501899094'><span>+3 8(050) 189 90 94</span></a>
+                        <a href='tel:+380982941708'><span>+3 8(098) 294 17 08</span></a>
                     </span>
                         <div>
-                            <Link to='https://instagram.com/tsveta_beauty?utm_medium=copy_link'><FaInstagram className={styles.FooterContentIcon}/></Link>
-                            <Link to='http://t.me/sveta_beauty1'><FaTelegram className={styles.FooterContentIcon}/></Link>
+                            <a href='https://instagram.com/tsveta_beauty?utm_medium=copy_link' target='_blank' rel='noreferrer'><FaInstagram className={styles.FooterContentIcon}/></a>
+                            <a href='http://t.me/sveta_beauty1' target='_blank' rel='noreferrer'><FaTelegram className={styles.FooterContentIcon}/></a>
                         </div>
                     </div>
                 </Container>

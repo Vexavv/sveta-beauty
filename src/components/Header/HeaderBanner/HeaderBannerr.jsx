@@ -3,7 +3,7 @@ import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import React from 'react';
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 import styles from './HeaderBanner.module.scss'
 import '../../../styles/variables.module.scss'
 
@@ -35,8 +35,7 @@ const HeaderToolbar = () => {
                             display: 'flex'
                         }}>
                             <FaPhoneAlt className={styles.IconPhone}/>
-                            <Link
-                                to="tel:+380501899094"> <Typography sx={{
+                             <Typography sx={{
                                 color: "#1A1A1A",
                                 fontSize: {xs: '20px', md: '16px'},
                                 fontFamily: 'var(--font-family)',
@@ -44,15 +43,15 @@ const HeaderToolbar = () => {
                                     textDecoration: 'underline'
                                 }
                             }}>
-                                +3 8(050) 189 90 94
-                            </Typography></Link>
+                                 <a href="tel:+380501899094"> +3 8(050) 189 90 94</a>
+                            </Typography>
                         </Box>
                         <Box sx={{
                             display: {xs: 'none', sm: 'none', md: 'flex'}
                         }}>
                             <FaRegEnvelope className={styles.IconPhone}/>
 
-                            <Link to="mailto:svetatsys@gmail.com"><Typography sx={{
+                            <Typography sx={{
                                 color: "#1A1A1A",
                                 fontSize: {xs: '20px', md: '16px'},
                                 fontFamily: 'var(--font-family)',
@@ -60,8 +59,8 @@ const HeaderToolbar = () => {
                                     textDecoration: 'underline'
                                 }
                             }}>
-                                e-mail: svetatsys@gmail.com
-                            </Typography></Link>
+                                <a href="mailto:svetatsys@gmail.com">   e-mail: svetatsys@gmail.com</a>
+                            </Typography>
                         </Box>
                     </Box>
                     <Box sx={{
@@ -71,18 +70,11 @@ const HeaderToolbar = () => {
                         alignItems: 'center',
                         paddingTop: '10px'
                     }}>
-                        <Box width={1} height={0.5} component={Link}
-                             to={'https://instagram.com/tsveta_beauty?utm_medium=copy_link'} sx={{
-                            color: "#1A1A1A",
-                        }}>
-
-                            <FaInstagram className={styles.Icon}/>
+                        <Box width={1} height={0.5}>
+                           <a href="https://instagram.com/tsveta_beauty?utm_medium=copy_link" target='_blank' rel='noreferrer'><FaInstagram className={styles.Icon}/></a>
                         </Box>
-                        <Box width={1} height={0.5}
-                             component={Link} to={'http://t.me/sveta_beauty1'} sx={{
-                            color: "#1A1A1A",
-                        }}>
-                            <FaTelegram className={styles.Icon}/>
+                        <Box width={1} height={0.5}>
+                           <a href="http://t.me/sveta_beauty1" target='_blank' rel='noreferrer'><FaTelegram className={styles.Icon}/></a>
                         </Box>
                     </Box>
                 </Box>

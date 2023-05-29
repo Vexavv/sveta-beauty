@@ -3,9 +3,10 @@ import {Container} from '@mui/material'
 import styles from './About.module.scss'
 import AboutMe from "../../components/AboutMe/AboutMe";
 import BannerAbout from "../../components/BannerAbout/BannerAbout";
-import ServiceList from "../../components/ServiceList/ServiceList";
+// import ServiceList from "../../components/ServiceList/ServiceList";
 import AboutGallery from "../../components/AboutMe/AboutGallery/AboutGallery";
-
+import List from "../../components/List/List";
+import {renderDataList} from "../../helpers/dataHelpers";
 
 function About(props) {
     return (
@@ -13,11 +14,12 @@ function About(props) {
             <BannerAbout/>
             <Container maxWidth="xl">
                 <AboutMe/>
-                <ServiceList/>
+                <List title='Наши послуги' tag1='Нігтьовий сервіс' tag2='Перманентний макіяж' tag3='Макіяж брів' renderFunction={renderDataList}/>
+                {/*<ServiceList/>*/}
                 <AboutGallery/>
             </Container>
 
-            </main>
+        </main>
     );
 }
 

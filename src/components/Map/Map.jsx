@@ -2,8 +2,10 @@ import React from "react";
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 const apiKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
 const containerStyle = {
-    width: "100%",
+    width: "90%",
     height: "500px",
+    border: "10px solid var(--border-color)",
+    borderRadius: "5px"
 
 };
 
