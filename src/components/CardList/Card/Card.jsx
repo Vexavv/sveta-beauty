@@ -24,8 +24,8 @@ function Card({title, minPrice, maxPrice, minTime, maxTime, description, imageUr
             </div>
             <div className={styles.CardInfo}>
                 <h3 className={styles.CardInfoTitle}>{title}</h3>
-                <p className={styles.CardInfoPrice}>Ціна: <span>{minPrice} </span>гривень</p>
-                <p className={styles.CardInfoTime}>Час виконання: <span>{minTime}</span> хвилин</p>
+                <p className={styles.CardInfoPrice}>Ціна: {minPrice} гривень</p>
+                <p className={styles.CardInfoTime}>Час виконання: {minTime} хвилин</p>
                 <div><p className={styles.CardInfoDescription}>{description}</p></div>
 
             </div>

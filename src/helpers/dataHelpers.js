@@ -1,5 +1,7 @@
 
 import {Link} from "react-router-dom";
+import Card from "../components/CardList/Card/Card";
+import React from "react";
 
 
 export  const renderDataList = (data, style) => {
@@ -19,9 +21,24 @@ export  const renderPriceList = (data, style) => {
         <ul className={style}>
             {data.map(item => (
                 <li key={item.id}>
-                    <Link to="/services">{item.title}: {item.minPrice} гривень </Link>
+                    <Link to="/services">{item.title}: <span>{item.minPrice}</span> гривень </Link>
                 </li>
             ))}
         </ul>
     );
+}
+export const renderCard = (data,style) => {
+    return(
+        <ul className={style}>
+            {
+                data.map((item) => {
+                    return <Card key={item.id} {...item} item={item}/>
+                })
+            }
+        </ul>
+
+
+        );
+
+
 }

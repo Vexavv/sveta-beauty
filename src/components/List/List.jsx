@@ -2,6 +2,8 @@ import React from 'react';
 import styles from "./List.module.scss";
 import {brows, nails, permanent} from "../../data/data";
 import HTag from "../HTag/HTag";
+import cn from 'classnames'
+
 function List({title,tag1,tag2,tag3,renderFunction}) {
     return (
         <div className={styles.List}>

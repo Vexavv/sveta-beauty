@@ -7,6 +7,7 @@
   flex-direction: column;
   align-items: center;
   padding: 0 10px;
+  box-shadow: 0 3px 15px 13.5px #6b6666;
   &Content {
     display: flex;
     flex-direction: column;
@@ -18,21 +19,34 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-
+      &List2 {
+      }
 
       &List {
         list-style: none;
-        font-family: var(--font-banner);
-        font-size: 18px;
-        font-weight: bold;
+        //font-family: var(--font-banner);
+        //font-size: 18px;
+        //font-weight: bold;
         display: flex;
         flex-direction: column;
         margin-left: 0;
         width: 100%;
 
         li a {
+
+          font-family: var(--font-banner);
+          font-size: 18px;
+          font-weight: bold;
+
+
+
           padding: 5px 0;
           color: var(--textList-color);
+        }
+        span{
+          font-size: 35px;
+          font-weight: 700;
+          text-decoration: underline;
         }
       }
     }
@@ -45,12 +59,14 @@
       padding: 5px 20px;
 
       &Description {
-
+        &List2 {
+        }
         &List {
-          font-size: 22px;
+          //font-size: 22px;
 
-          li {
+          li a {
             padding: 7px 0;
+            font-size: 22px;
           }
         }
       }
@@ -60,6 +76,7 @@
 
 @media (min-width: 900px) {
   .List {
+    box-shadow: none;
     &:hover {
       transition: all .5s ease;
       box-shadow: 0 3px 15px 13.5px #6b6666;
@@ -70,30 +87,26 @@
 
     &Content {
       &Description {
+        &List2 {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          padding: 5px 10px;
+
+        }
         &List {
-          font-size: 25px;
+          //font-size: 25px;
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           gap: 10px;
           padding-left: 15px;
           width: 70%;
 
-          li {
+          li a {
             padding: 10px 0;
-
+            font-size: 25px;
           }
-        }
-      }
-    }
-  }
-}
-
-@media (min-width: 1200px) {
-  .List {
-    &Content {
-      &Description {
-        &List {
-          font-size: 35px;
         }
       }
     }
