@@ -8,10 +8,6 @@ import Navigation from './Navigation/Navigation';
 import Logo from './Logo/Logo'
 const navItems = [
     {
-        title: 'Про нас',
-        path: '/'
-    },
-    {
         title: 'Послуги',
         path: '/services'
     },

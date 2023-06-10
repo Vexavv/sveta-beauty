@@ -15,6 +15,12 @@
   font-size: 20px;
   text-align: center;
 }
+.H4{
+  font-family: var(--font-banner);
+  text-decoration: underline;
+  font-size: 20px;
+  text-align: center;
+}
 
 @media (min-width: 600px) {
   .H1 {
@@ -25,6 +31,9 @@
   }
   .H3 {
     font-size: 25px;
+  }
+  .H4{
+    font-size: 20px;
   }
 }
 
@@ -37,5 +46,9 @@
   }
   .H3 {
     font-size: 35px;
+  }
+  .H4{
+
+    font-size: 25px;
   }
 }

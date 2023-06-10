@@ -115,8 +115,8 @@ export const nails = [
     {
         id: 10,
         imageUrl: ['https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683122437/Sveta-beauty/Product%20card/Nails/pedic_classic/14607_2_fegdwj.jpg',
-        'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683122437/Sveta-beauty/Product%20card/Nails/pedic_classic/IMG_5276_lualjo.jpg',
-        'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683122437/Sveta-beauty/Product%20card/Nails/pedic_classic/french4_i7efeg.jpg'],
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683122437/Sveta-beauty/Product%20card/Nails/pedic_classic/IMG_5276_lualjo.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683122437/Sveta-beauty/Product%20card/Nails/pedic_classic/french4_i7efeg.jpg'],
         title: 'Педекюр (комплекс)',
         minPrice: 700,
         maxPrice: 0,
@@ -142,9 +142,9 @@ export const nails = [
     {
         id: 12,
         imageUrl: ['https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683123042/Sveta-beauty/Product%20card/Nails/parafin/IMG_8971_q4swpu.jpg',
-        'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683123042/Sveta-beauty/Product%20card/Nails/parafin/SPA_manikyur_kdsycp.jpg',
-        'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683123042/Sveta-beauty/Product%20card/Nails/parafin/Picture1_251_ujmpfi.png',
-        'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683123042/Sveta-beauty/Product%20card/Nails/parafin/2409115_hb7feh.jpg'],
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683123042/Sveta-beauty/Product%20card/Nails/parafin/SPA_manikyur_kdsycp.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683123042/Sveta-beauty/Product%20card/Nails/parafin/Picture1_251_ujmpfi.png',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683123042/Sveta-beauty/Product%20card/Nails/parafin/2409115_hb7feh.jpg'],
         title: 'Парафіно терапія ( спа комплекс для рук)',
         minPrice: 400,
         maxPrice: 0,
@@ -324,4 +324,30 @@ export const gallery = [
         img: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682275647/Sveta-beauty/About/masonry/IMG_5701_lnesdn.jpg',
         title: 'blue nails'
     },
-]
+];
+export const disinfection = [
+    {
+        id: 1,
+        image: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686408530/Sveta-beauty/disinfection/ultra_ya4b1a.jpg',
+        title: 'Крок 1. Дезінфекція поєднана з передстерилізаційним очищенням в ультразвуковій ванні.',
+        text: 'При використанні ультразвукової ванни ми поєднуємо дезінфекцію та очищення в одному етапі. Розміщуємо інструменти у решітчастому лотку та поміщаємо лоток у ванну. Інструменти повністю покриті дезінфікуючим розчином. Включаємо ультразвукову ванну на 15 хвилин. Після закінчення циклу очищення виймаємо лоток з інструментами з ванни та переходьте до Кроку 2.'
+    },
+    {
+        id: 2,
+        image: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686416034/Sveta-beauty/disinfection/woter_1_miukps.jpg',
+        title: 'Крок 2. Ретельно промити водою та висушити.',
+        text: 'Після ультразвукового оброблення інструменти промиваємо чистою водою і ретельно висушуємо. Потім уважно оглядаємо інструменти. На них не повинно залишатися слідів крові, залишків шкіри та інших забруднень, подряпин та сколів.'
+    },
+    {
+        id: 3,
+        image: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686408530/Sveta-beauty/disinfection/suho_ewsoue.jpg',
+        title: 'Крок 3. Стерилізація',
+        text: 'Поміщаємо інструменти в самоклеючі крафт-пакети для стерилізації та запечатуємо їх. Стерилізуємо інструменти в сухожаровій шафі при температурі 180 ° С протягом 1 години.'
+    },
+    {
+        id: 4,
+        image: 'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686408529/Sveta-beauty/disinfection/kraft_pakety_l6v2lr.jpg',
+        title: 'Крок 4. Зберігання.',
+        text: 'Зберігається простерилізований інструмент, не виймаючи з крафт-пакетів, до наступного використання. У запечатаному крафт-пакеті інструменти зберігають стерильність до 30 діб.'
+    },
+];

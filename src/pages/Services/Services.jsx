@@ -8,13 +8,13 @@ import {renderCard} from "../../helpers/dataHelpers";
 
 function Services(props) {
     return (
-        <main className={styles.Services}>
+        <div className={styles.Services}>
             <Banner/>
             <Container maxWidth="xl">
                 <List renderFunction={renderCard} tag1='Послуги нігтьового сервісу' tag2='Послуги перманентного макіяжу' tag3='Послуги макіяжу брів'/>
                 <CardList/>
             </Container>
-        </main>
+        </div>
     );
 }
 

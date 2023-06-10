@@ -7,7 +7,9 @@ function Layout(props) {
     return (
         <>
             <Header/>
-            <Outlet/>
+            <main>
+                <Outlet/>
+            </main>
             <Footer/>
         </>
     );

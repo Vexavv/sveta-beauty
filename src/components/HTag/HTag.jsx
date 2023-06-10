@@ -8,6 +8,8 @@ function HTag({tag, children}) {
             return <h2 className={styles.H2}>{children}</h2>;
         case 'h3':
             return <h3 className={styles.H3}>{children}</h3>;
+        case 'h4':
+            return <h4 className={styles.H4}>{children}</h4>;
         default:
             return <></>
     }

@@ -10,7 +10,7 @@ import {renderDataList} from "../../helpers/dataHelpers";
 
 function About(props) {
     return (
-        <main className={styles.About}>
+        <div className={styles.About}>
             <BannerAbout/>
             <Container maxWidth="xl">
                 <AboutMe/>
@@ -18,7 +18,7 @@ function About(props) {
                 <AboutGallery/>
             </Container>
 
-        </main>
+        </div>
     );
 }
 
