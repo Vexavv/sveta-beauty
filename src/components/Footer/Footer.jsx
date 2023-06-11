@@ -3,6 +3,7 @@ import styles from './Footer.module.scss'
 import {Link} from "react-router-dom";
 import {FaInstagram, FaTelegram} from "react-icons/fa";
 import {Container} from '@mui/material'
+import {format} from 'date-fns'
 function Footer(props) {
     return (
         <div className={styles.Footer}>
@@ -26,7 +27,9 @@ function Footer(props) {
                 </Container>
 
             {/*</div>*/}
-<div className={styles.FooterBanner}></div>
+<div className={styles.FooterBanner}>
+   <p>Sveta Beauty © 2020 - {format(new Date(), 'yyyy')} Всі права захищені </p>
+</div>
         </div>
     );
 }

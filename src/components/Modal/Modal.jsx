@@ -4,6 +4,7 @@ import {useSelector, useDispatch} from "react-redux";
 import {toggleModal} from "../../store/mainSlice";
 import classNames from "classnames";
 import {AiOutlineClose} from "react-icons/ai";
+import HTag from "../HTag/HTag";
 
 function Modal(props) {
     const dispatch = useDispatch();
@@ -47,12 +48,12 @@ function Modal(props) {
                     </ul>
                 </div>
                 <div className={styles.ModalContentDescription}>
-                    <h3 className={styles.ModalContentDescriptionTitle}>
-                        {selectedProduct.title}
-                    </h3>
-                    <span className={styles.ModalContentDescriptionText}>
-            {selectedProduct.description}
-          </span>
+                    <HTag tag='h4'>{selectedProduct.title}</HTag>
+                    <p className={styles.ModalContentDescriptionText}>Ціна: {selectedProduct.minPrice} гривень</p>
+                    <p className={styles.ModalContentDescriptionText}>Час виконання: {selectedProduct.minTime} хвилин</p>
+                    <p className={styles.ModalContentDescriptionText}>
+                             {selectedProduct.description}
+                     </p>
                 </div>
             </div>
         </div>

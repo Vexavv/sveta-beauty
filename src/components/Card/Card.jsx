@@ -1,7 +1,9 @@
 import React,{useState} from 'react';
 import styles from './Card.module.scss'
-import {getElement, toggleModal} from "../../../store/mainSlice";
+import {getElement, toggleModal} from "../../store/mainSlice";
 import {useSelector, useDispatch} from "react-redux";
+import { FaRegEye } from 'react-icons/fa';
+import HTag from "../HTag/HTag";
 function Card({title, minPrice, maxPrice, minTime, maxTime, description, imageUrl, id, item}) {
     const dispatch = useDispatch();
     function handleProductClick(product) {
@@ -11,7 +13,7 @@ function Card({title, minPrice, maxPrice, minTime, maxTime, description, imageUr
     }
     const [hovered, setHovered] = useState(null);
     return (
-        <div className={styles.Card}  onClick={() => handleProductClick(item)}>
+        <div className={styles.Card}  >
             <div className={styles.CardImage}>
                 <img src={
                     hovered === id && imageUrl.length > 1
@@ -23,9 +25,10 @@ function Card({title, minPrice, maxPrice, minTime, maxTime, description, imageUr
                      alt={title}/>
             </div>
             <div className={styles.CardInfo}>
-                <h3 className={styles.CardInfoTitle}>{title}</h3>
+                <HTag tag='h4'>{title}</HTag>
                 <p className={styles.CardInfoPrice}>Ціна: {minPrice} гривень</p>
                 <p className={styles.CardInfoTime}>Час виконання: {minTime} хвилин</p>
+                <FaRegEye className={styles.CardInfoIcon} onClick={() => handleProductClick(item)}/>
                 <div><p className={styles.CardInfoDescription}>{description}</p></div>
 
             </div>

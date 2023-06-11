@@ -1,4 +1,4 @@
-@import "src/styles/variables.module";
+
 
 .Footer {
   background-color: var(--primary-color);
@@ -59,7 +59,12 @@
     }
 
   &Banner{
-    height: 50px;
     background-color: #e992a1;
+    text-align: center;
+    p{
+      padding: 20px 0;
+      font-family: var(--font-family);
+      font-size: 14px;
+    }
   }
 }

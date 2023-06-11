@@ -1,7 +1,7 @@
-
-import {Link} from "react-router-dom";
-import Card from "../components/CardList/Card/Card";
 import React from "react";
+import {Link} from "react-router-dom";
+import Card from "../components/Card/Card";
+
 
 
 export  const renderDataList = (data, style) => {
