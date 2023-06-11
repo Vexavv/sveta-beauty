@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Footer.module.scss'
 import {Link} from "react-router-dom";
 import {FaInstagram, FaTelegram} from "react-icons/fa";
+import {RiWhatsappFill} from "react-icons/ri";
 import {Container} from '@mui/material'
 import {format} from 'date-fns'
 function Footer(props) {
@@ -22,6 +23,7 @@ function Footer(props) {
                         <div>
                             <a href='https://instagram.com/tsveta_beauty?utm_medium=copy_link' target='_blank' rel='noreferrer'><FaInstagram className={styles.FooterContentIcon}/></a>
                             <a href='http://t.me/sveta_beauty1' target='_blank' rel='noreferrer'><FaTelegram className={styles.FooterContentIcon}/></a>
+                            <a href='https://api.whatsapp.com/send?phone=380501899094' target='_blank' rel='noreferrer'><RiWhatsappFill className={styles.FooterContentIcon}/></a>
                         </div>
                     </div>
                 </Container>

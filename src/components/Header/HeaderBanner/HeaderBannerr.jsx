@@ -1,9 +1,9 @@
 import {FaInstagram, FaTelegram, FaPhoneAlt, FaRegEnvelope} from "react-icons/fa";
+import {RiWhatsappFill} from "react-icons/ri";
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import React from 'react';
-// import {Link} from "react-router-dom";
 import styles from './HeaderBanner.module.scss'
 import '../../../styles/variables.module.scss'
 
@@ -75,6 +75,9 @@ const HeaderToolbar = () => {
                         </Box>
                         <Box width={1} height={0.5}>
                            <a href="http://t.me/sveta_beauty1" target='_blank' rel='noreferrer'><FaTelegram className={styles.Icon}/></a>
+                        </Box>
+                        <Box width={1} height={0.5}>
+                            <a href='https://api.whatsapp.com/send?phone=380501899094' target='_blank' rel='noreferrer'><RiWhatsappFill className={styles.Icon}/></a>
                         </Box>
                     </Box>
                 </Box>
