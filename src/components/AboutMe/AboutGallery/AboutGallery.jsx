@@ -1,12 +1,30 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import styles from './AboutGallery.module.scss'
-import {gallery} from "../../../data/data";
 import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import HTag from "../../HTag/HTag";
 
 function AboutGallery(props) {
+    const [gallery, setGallery] = useState(null);
+    useEffect(() => {
+        const fetchGallery = async () => {
+            try {
+                const response = await fetch('./data/gallery.json');
+                const jsonData = await response.json();
+                setGallery(jsonData);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        };
+
+        fetchGallery();
+    }, []);
+
+    if (!gallery) {
+        return <div>Loading...</div>;
+    }
+
     return (
         <div className={styles.Gallery}>
             <HTag tag='h2'> Наши роботи</HTag>

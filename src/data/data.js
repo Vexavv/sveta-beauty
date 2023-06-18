@@ -30,8 +30,8 @@ export const nails = [
     {
         id: 3,
         imageUrl: ['https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686478897/Sveta-beauty/Product%20card/Nails/Gel%20lak%20french/1590753361_15-p-manikyur-gel-lak_d3bpcz.jpg',
-        'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686478897/Sveta-beauty/Product%20card/Nails/Gel%20lak%20french/1590753380_1-p-manikyur-gel-lako_xzmcml.jpg',
-        'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686478897/Sveta-beauty/Product%20card/Nails/Gel%20lak%20french/1590753430_3-p-manikyur-gel-lako_yujiru.jpg',],
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686478897/Sveta-beauty/Product%20card/Nails/Gel%20lak%20french/1590753380_1-p-manikyur-gel-lako_xzmcml.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686478897/Sveta-beauty/Product%20card/Nails/Gel%20lak%20french/1590753430_3-p-manikyur-gel-lako_yujiru.jpg',],
         title: 'Покриття гель лаком Френч',
         minPrice: 450,
         maxPrice: 550,
@@ -43,7 +43,7 @@ export const nails = [
         id: 4,
         imageUrl: ['https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686480784/Sveta-beauty/Product%20card/Nails/Kompleks%20gel%20lak/IMG_4215_1_niubrn.jpg',
             'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686482047/Sveta-beauty/Product%20card/Nails/Kompleks%20gel%20lak/1655776047_2-mykaleidoscope-ru-p_sgpq2r.jpg',
-        'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686480634/Sveta-beauty/Product%20card/Nails/Kompleks%20gel%20lak/This_item_is_unavailable_-_Etsy_s2d4da.jpg'],
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686480634/Sveta-beauty/Product%20card/Nails/Kompleks%20gel%20lak/This_item_is_unavailable_-_Etsy_s2d4da.jpg'],
         title: 'Манікюрний комплекс',
         minPrice: 600,
         maxPrice: 700,
@@ -71,7 +71,7 @@ export const nails = [
             'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686484222/Sveta-beauty/Product%20card/Nails/Nar%20nails/IMG_0962_1_1_yn34tp.jpg',
             'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686484372/Sveta-beauty/Product%20card/Nails/Nar%20nails/IMG_6938_1_ad9foi.jpg',
             'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686485014/Sveta-beauty/Product%20card/Nails/Nar%20nails/IMG_6422_1_aq7ukn.png',
-            ],
+        ],
         title: 'Нарощування нігтів гель, полігель',
         minPrice: 1000,
         maxPrice: 800,
@@ -95,10 +95,13 @@ export const nails = [
     },
     {
         id: 8,
-        imageUrl: ['https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682965450/Sveta-beauty/Product%20card/Nails/Nail_franch/IMG_8082_1_uegluk.png',
-            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682690790/Sveta-beauty/Product%20card/Nails/Nail_franch/IMG_8454_ygaq0i.png',
-            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682690790/Sveta-beauty/Product%20card/Nails/Nail_franch/IMG_6549_htbdyx.png',
-            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1682965448/Sveta-beauty/Product%20card/Nails/Nail_franch/IMG_6548_1_livgok.png'],
+        imageUrl: [
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687013262/Sveta-beauty/Product%20card/Nails/Nail_franch/1579147249_2-3_1_mrrhvo.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687013261/Sveta-beauty/Product%20card/Nails/Nail_franch/1-54_1_uhr1ho.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687013262/Sveta-beauty/Product%20card/Nails/Nail_franch/IMG_8454_1_h0emyk.png',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687013261/Sveta-beauty/Product%20card/Nails/Nail_franch/1636769318_5-modnica-club-p-klas_vbbbld.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687013261/Sveta-beauty/Product%20card/Nails/Nail_franch/2_kdmund.jpg'
+        ],
         title: 'Викладний френч',
         minPrice: 1200,
         maxPrice: 0,
@@ -108,10 +111,10 @@ export const nails = [
     },
     {
         id: 9,
-        imageUrl: ['https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683121418/Sveta-beauty/Product%20card/Nails/pedic/p3_aiudt9.webp',
-            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683121419/Sveta-beauty/Product%20card/Nails/pedic/IMG_4761_1_nhqii0.jpg',
-            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683121418/Sveta-beauty/Product%20card/Nails/pedic/klassicheskij-pedijur_odohri.jpg',
-            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683121419/Sveta-beauty/Product%20card/Nails/pedic/5654-1_enhpiu.jpg'],
+        imageUrl: ['https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687014596/Sveta-beauty/Product%20card/Nails/pedic/Kombinirovannyj-pedikyur-Harkov_1_yginuq.png',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687014596/Sveta-beauty/Product%20card/Nails/pedic/classic_pedicure_prew_1_gsl257.jpg',
+            'https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687014768/Sveta-beauty/Product%20card/Nails/pedic/617557df15e12e4fa946ed379ec42e98_1_euosi0.jpg',
+        ],
         title: 'Педекюр класичний',
         minPrice: 500,
         maxPrice: 0,
@@ -222,7 +225,7 @@ export const brows = [
         maxPrice: 0,
         minTime: 20,
         maxTime: 0,
-        description: `Фарбування брів  проводиться  за допомогою фарби ”REFECTO Cil EYELASH” , ”NIKK MOLE” та хна ” PERMANENT LASH&BROW” .Спеціаліст знає, як зробити брови доглянутими, підкресливши при цьому їхню природну красу.`
+        description: "Фарбування брів  проводиться  за допомогою фарби ”REFECTO Cil EYELASH” , ”NIKK MOLE” та хна ” PERMANENT LASH&BROW” .Спеціаліст знає, як зробити брови доглянутими, підкресливши при цьому їхню природну красу."
     },
     {
         id: 2,

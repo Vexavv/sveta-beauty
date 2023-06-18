@@ -1,8 +1,26 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import styles from './DisinfectionSteps.module.scss'
-import {disinfection} from "../../data/data";
 import HTag from "../HTag/HTag";
 function DisinfectionSteps(props) {
+    const [disinfection, setDisinfection] = useState(null)
+
+    useEffect(() => {
+        const fetchDisinfection = async () => {
+            try {
+                const response = await fetch('./data/disinfection.json');
+                const jsonData = await response.json();
+                setDisinfection(jsonData);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        };
+
+        fetchDisinfection();
+    }, []);
+
+    if (!disinfection) {
+        return <div>Loading...</div>;
+    }
     return (
         <ul className={styles.Steps}>
             {disinfection.map(step => {
