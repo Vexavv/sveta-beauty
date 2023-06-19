@@ -49,11 +49,12 @@ function Modal(props) {
                 </div>
                 <div className={styles.ModalContentDescription}>
                     <HTag tag='h4'>{selectedProduct.title}</HTag>
-                    <p className={styles.ModalContentDescriptionText}>Ціна: {selectedProduct.minPrice} гривень</p>
-                    <p className={styles.ModalContentDescriptionText}>Час виконання: {selectedProduct.minTime} хвилин</p>
+                    <span className={styles.ModalContentDescriptionText}>Ціна: <span>{selectedProduct.minPrice}</span>  гривень</span>
+                    <p className={styles.ModalContentDescriptionText}>Час
+                        виконання: <span>{selectedProduct.minTime}</span> хвилин</p>
                     <p className={styles.ModalContentDescriptionText}>
-                             {selectedProduct.description}
-                     </p>
+                        {selectedProduct.description}
+                    </p>
                 </div>
             </div>
         </div>

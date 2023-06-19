@@ -3,8 +3,7 @@ import {Link} from "react-router-dom";
 import Card from "../components/Card/Card";
 
 
-
-export  const renderDataList = (data, style) => {
+export const renderDataList = (data, style) => {
     return (
         <ul className={style}>
             {data.map(item => (
@@ -16,7 +15,7 @@ export  const renderDataList = (data, style) => {
     );
 }
 
-export  const renderPriceList = (data, style) => {
+export const renderPriceList = (data, style) => {
     return (
         <ul className={style}>
             {data.map(item => (
@@ -27,8 +26,8 @@ export  const renderPriceList = (data, style) => {
         </ul>
     );
 }
-export const renderCard = (data,style) => {
-    return(
+export const renderCard = (data, style) => {
+    return (
         <ul className={style}>
             {
                 data.map((item) => {
@@ -36,9 +35,9 @@ export const renderCard = (data,style) => {
                 })
             }
         </ul>
-
-
-        );
-
-
-}
+    );
+};
+export const fetchData = async (url) => {
+    const response = await fetch(url);
+    return await response.json();
+};
