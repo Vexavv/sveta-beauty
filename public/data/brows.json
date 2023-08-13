@@ -3,10 +3,9 @@
     "id": 1,
     "imageUrl": [
       "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687193415/Sveta-beauty/Product%20card/Lash/staining/IMG_2865_1_vnv2of.jpg",
-      "",
-      ""
-
-      ],
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687266471/Sveta-beauty/Product%20card/Lash/staining/IMG_1697_p0d0uz.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687266419/Sveta-beauty/Product%20card/Lash/staining/IMG_4277_1_ng93us.jpg"
+    ],
     "title": "Фарбування брів",
     "minPrice": 300,
     "maxPrice": 0,
@@ -17,7 +16,9 @@
   {
     "id": 2,
     "imageUrl": [
-
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687267016/Sveta-beauty/Product%20card/Lash/corection/korrekcziya-voskom_1_obmc18.png",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687267106/Sveta-beauty/Product%20card/Lash/corection/korrekciya-brovej-voskom-v-domas_tvuckk.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687267021/Sveta-beauty/Product%20card/Lash/corection/IMG_3595_q1zqi7.jpg"
     ],
     "title": "Воскова корекція брів",
     "minPrice": 250,
@@ -29,7 +30,9 @@
   {
     "id": 3,
     "imageUrl": [
-
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687266612/Sveta-beauty/Product%20card/Lash/lami/IMG_4533_d3q2x6.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687266612/Sveta-beauty/Product%20card/Lash/lami/IMG_4544_fs3ilk.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687266611/Sveta-beauty/Product%20card/Lash/lami/IMG_4252_y4c4zf.jpg"
     ],
     "title": "Ламінування брів",
     "minPrice": 400,
@@ -41,8 +44,10 @@
   {
     "id": 4,
     "imageUrl": [
-      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687193575/Sveta-beauty/Product%20card/Lash/corect_staining/DSC_4262_1_kttsaw.jpg"
-
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687266751/Sveta-beauty/Product%20card/Lash/corect_staining/IMG_3621_g7ycfo.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687266751/Sveta-beauty/Product%20card/Lash/corect_staining/IMG_1706_pxjhfa.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687266751/Sveta-beauty/Product%20card/Lash/corect_staining/IMG_3609_cvkmei.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687266752/Sveta-beauty/Product%20card/Lash/corect_staining/IMG_1711_xiiue2.jpg"
     ],
     "title": "Корекція та фарбування брів",
     "minPrice": 400,
@@ -54,7 +59,9 @@
   {
     "id": 5,
     "imageUrl": [
-
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687267658/Sveta-beauty/Product%20card/Lash/complex/i7oqr88fiylcuq847shl6iexa9bwi20j_1_ul9nwf.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687267658/Sveta-beauty/Product%20card/Lash/complex/photo_2020-02-07_18-09-45_1_bm6lup.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687267658/Sveta-beauty/Product%20card/Lash/complex/330a95ab5365f67ac956d9962cbcc595_1_cunfob.jpg"
     ],
     "title": "Комплекс Моделювання брів",
     "minPrice": 650,
