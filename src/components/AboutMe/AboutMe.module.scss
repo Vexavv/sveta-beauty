@@ -1,0 +1,107 @@
+@import "src/styles/variables.module";
+
+.About {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+
+  &Img {
+    padding: 46%;
+    background-image: url("https://res.cloudinary.com/dj9e1wjcg/image/upload/v1681137239/Sveta-beauty/About/DSC_4167_rf1602.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid var(--border-color);
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+  &Text {
+    font-family: var(--font-family);
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    border: 10px solid var(--border-color);
+    box-sizing: border-box;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 600px) {
+  .About {
+    flex-direction: row;
+
+    &Img {
+      padding: 25% 20%;
+      margin-right: 5px;
+      //flex-shrink: 1;
+
+    }
+
+    &Text {
+
+      font-size: 14px;
+      line-height: 18px;
+      text-align: center;
+      width: 50%;
+
+      //flex-shrink: 1;
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .About {
+
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+
+    &Img {
+      //padding:20% ;
+      margin-right: 10px;
+      //margin-bottom: 0;
+      padding: 15% 10%;
+      margin-bottom: 10%;
+    }
+
+    &Text {
+      font-size: 14px;
+      line-height: 14px;
+      align-self: flex-end;
+      //padding: 40%;
+      //background-color: #ff1a00;
+      //margin-top: 50px;
+      padding: 10px;
+      width: 25%;
+    }
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .About {
+    align-items: flex-start;
+
+    &Img {
+      padding: 15% 10%;
+      margin-bottom: 10%;
+    }
+
+    &Text {
+      font-family: var(--font-family);
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      align-self: flex-end;
+      //margin-top: 10%;
+      //background-color: #ff1a00;
+      border: 10px solid #ebacb6;
+      box-sizing: border-box;
+      width: 25%;
+      padding: 10px;
+    }
+  }
+}

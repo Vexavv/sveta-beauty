@@ -1,0 +1,70 @@
+
+
+.Footer {
+  background-color: var(--primary-color);
+
+    &Content {
+      display: flex;
+      flex-direction: column;
+      a{
+        color: #030303;
+      }
+
+      h3 {
+        font-family: var(--font-family);
+        font-size: 20px;
+        padding: 20px 0;
+        border-bottom: 2px solid #878585;
+        display: block;
+        max-width: 400px;
+      }
+
+      &Text {
+        font-family: var(--font-family);
+        font-size: 16px;
+        line-height: 25px;
+        max-width: 400px;
+        padding: 20px 0;
+        border-bottom: 2px solid #878585;
+        span{
+          font-weight: bold;
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+
+      &Phone {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0;
+        border-bottom: 2px solid #878585;
+        max-width: 400px;
+        span{
+          margin-bottom: 10px;
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+
+      &Icon {
+        font-size: 30px;
+        margin:10px 10px 10px 0;
+        &:hover{
+          transform: scale(1.5);
+          transition: all .5s ease;
+        }
+      }
+    }
+
+  &Banner{
+    background-color: #e992a1;
+    text-align: center;
+    p{
+      padding: 20px 0;
+      font-family: var(--font-family);
+      font-size: 14px;
+    }
+  }
+}

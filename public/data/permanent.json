@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "imageUrl": ["https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687189977/Sveta-beauty/Product%20card/Permanent/permanent_brows/DSC_4211_1_meoyz2.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687189820/Sveta-beauty/Product%20card/Permanent/permanent_brows/DSC_4206_1_xnh5rs.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687189582/Sveta-beauty/Product%20card/Permanent/permanent_brows/IMG_0375_1_ho9mt8.png",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687189330/Sveta-beauty/Product%20card/Permanent/permanent_brows/IMG_4277_1_mnucxl.png"
+    ],
+    "title": "Пудрове напилення брів",
+    "minPrice": 2800,
+    "maxPrice": 0,
+    "minTime": 150,
+    "maxTime": 0,
+    "description": "Процедура пудрового напилення брів – це апаратна техніка, за якої брови фарбуються спеціальною фарбою поверхнево. Пудровий татуаж вважається безболісною та не травматичною б'юті-процедурою. Його особливістю є те, що він виконується у тіньовій техніці. Це створює образ підфарбованих тінями брів."
+  },
+  {
+    "id": 2,
+    "imageUrl": [
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687189330/Sveta-beauty/Product%20card/Permanent/permanent_brows/IMG_4871_1_dwqjny.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687191430/Sveta-beauty/Product%20card/Permanent/permanent_brows/IMG_0802_1_iaigqu.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687191496/Sveta-beauty/Product%20card/Permanent/permanent_brows/IMG_0807_1_zcerig.jpg"
+    ],
+    "title": "Корекція пудрових брів",
+    "minPrice": 1800,
+    "maxPrice": 0,
+    "minTime": 120,
+    "maxTime": 0,
+    "description": "Корекція – це друга частина процедури часткового або повного введення пігменту під шкіру з метою невеликого доопрацювання первинного результату. Вона допомагає надати бровам інтенсивності кольору, підкоригувати форму, змінивши товщину і довжину, а також доопрацювати недоліки, що утворилися через особливості сприйняття організму пігменту або неправильного догляду. Після одного сеансу процедура перманента не вважається завершеною."
+  },
+  {
+    "id": 3,
+    "imageUrl": [
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687190275/Sveta-beauty/Product%20card/Permanent/permanent_lips/DSC_4197_1_xukkrx.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687191232/Sveta-beauty/Product%20card/Permanent/permanent_lips/IMG_1958_1_chiruj.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687190846/Sveta-beauty/Product%20card/Permanent/permanent_lips/Facetune_09-07-2022-16-00-41_1_tqlsfw.jpg"
+    ],
+    "title": "Акварельні губи",
+    "minPrice": 2800,
+    "maxPrice": 0,
+    "minTime": 150,
+    "maxTime": 0,
+    "description": "Акварельні губи – це один з існуючих різновидів техніки татуажу губ. Ця техніка має на увазі пошарове нанесення пігментів з розтушовкою, що дозволяє зробити губки максимально натуральним. Використовуються при цьому нюдові, прозорі відтінки і натуральні пігменти, що повністю відповідають тону шкіри."
+  },
+  {
+    "id": 4,
+    "imageUrl": [
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687191151/Sveta-beauty/Product%20card/Permanent/permanent_lips/IMG_4882_1_gyfejn.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687191232/Sveta-beauty/Product%20card/Permanent/permanent_lips/IMG_1965_1_axtjsq.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687191151/Sveta-beauty/Product%20card/Permanent/permanent_lips/IMG_4881_1_wqktvs.jpg"
+    ],
+    "title": "Корекція губ",
+    "minPrice": 1500,
+    "maxPrice": 0,
+    "minTime": 90,
+    "maxTime": 0,
+    "description": "Корекція – це друга частина процедури часткового або повного введення пігменту під шкіру з метою регулювання насиченості кольору, відтінку та форми татуажу. На процедурі відредагують форму або приберуть прогалини, що виникли в процесі загоєння або неправильного догляду."
+  },
+  {
+    "id": 5,
+    "imageUrl": [
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687190541/Sveta-beauty/Product%20card/Permanent/permanent_hit/IMG_6645_1_dokago.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687190542/Sveta-beauty/Product%20card/Permanent/permanent_hit/IMG_7005_1_tg6n4y.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687190541/Sveta-beauty/Product%20card/Permanent/permanent_hit/IMG_6647_1_tnauzo.jpg"
+    ],
+    "title": "Напилення міжреснички",
+    "minPrice": 1500,
+    "maxPrice": 0,
+    "minTime": 90,
+    "maxTime": 0,
+    "description": "Міжресничка або міжресничний татуаж – це різновид перманентного макіяжу, суть якого полягає у введенні барвника (пігменту) під шкіру у заданому місці. Така процедура проводиться за допомогою спеціальної машини."
+  }
+]

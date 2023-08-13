@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "imageUrl": [
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686482326/Sveta-beauty/Product%20card/Nails/Manik/1655429953_57-mykaleidoscope-ru-_ucmx9i.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686483537/Sveta-beauty/Product%20card/Nails/Manik/classic-manikyur_500x500_c43_1_wmj6hn.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686482704/Sveta-beauty/Product%20card/Nails/Manik/1579198578_2-2_1_jcwzyp.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686482861/Sveta-beauty/Product%20card/Nails/Manik/1655495248_22-mykaleidoscope-ru-_tksr16.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686482567/Sveta-beauty/Product%20card/Nails/Manik/7771617c71573dd6d00bd423f84e4772_1_wykkqp.jpg"
+    ],
+    "title": "Манікюр",
+    "minPrice": 450,
+    "maxPrice": 550,
+    "minTime": 30,
+    "maxTime": 0,
+    "description": "Ретельна стерилізація, якісні матеріали, сучасні техніки манікюру у комплексі подарують вам ідеальне покриття! Ми можем зробити вам апаратний або класичний (обрізний) манікюр! Також комбінований який включає в себе техніки класичного та апаратного."
+  },
+  {
+    "id": 2,
+    "imageUrl": [
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683118717/Sveta-beauty/Product%20card/Nails/Gel%20lak/IMG_3407_1_wpcloa.png",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683118717/Sveta-beauty/Product%20card/Nails/Gel%20lak/IMG_2842_ll9ptd.png",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686479791/Sveta-beauty/Product%20card/Nails/Gel%20lak/nail_nail_designs_nail_design_z2kwx3.png",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686480341/Sveta-beauty/Product%20card/Nails/Gel%20lak/Salmon_Pink_Pastel_Nails_qmmhcm.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686480125/Sveta-beauty/Product%20card/Nails/Gel%20lak/__w7fkd2.jpg"
+    ],
+    "title": "Однотонне покриття гель лаком",
+    "minPrice": 350,
+    "maxPrice": 450,
+    "minTime": 30,
+    "maxTime": 150,
+    "description": "Сьогодні нігті одного кольору можуть виглядати дуже незвично і дивно завдяки величезній кількості декоративних елементів.У тренді: геометричні візерунки, всілякі наклейки, стрази, блискучі «втіркі» і багато іншого. Головний «плюс» однотонного манікюру в тому, що він приголомшливо виглядає на нігтики різної довжини і форми. На нігтики одного кольору можна зобразити все що завгодно.Дизайн різний: від яскравого і помітного до ніжного і спокійного"
+  },
+  {
+    "id": 3,
+    "imageUrl": [
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686478897/Sveta-beauty/Product%20card/Nails/Gel%20lak%20french/1590753361_15-p-manikyur-gel-lak_d3bpcz.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686478897/Sveta-beauty/Product%20card/Nails/Gel%20lak%20french/1590753380_1-p-manikyur-gel-lako_xzmcml.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686478897/Sveta-beauty/Product%20card/Nails/Gel%20lak%20french/1590753430_3-p-manikyur-gel-lako_yujiru.jpg"
+    ],
+    "title": "Покриття гель лаком Френч",
+    "minPrice": 450,
+    "maxPrice": 550,
+    "minTime": 45,
+    "maxTime": 0,
+    "description": "Французький манікюр, або просто френч, ніколи не втратить своєї актуальності. Саме завдяки йому жіночі ручки набувають акуратність і витонченість, а також власний унікальний стиль."
+  },
+  {
+    "id": 4,
+    "imageUrl": [
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686480784/Sveta-beauty/Product%20card/Nails/Kompleks%20gel%20lak/IMG_4215_1_niubrn.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686482047/Sveta-beauty/Product%20card/Nails/Kompleks%20gel%20lak/1655776047_2-mykaleidoscope-ru-p_sgpq2r.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686480634/Sveta-beauty/Product%20card/Nails/Kompleks%20gel%20lak/This_item_is_unavailable_-_Etsy_s2d4da.jpg"
+    ],
+    "title": "Манікюрний комплекс",
+    "minPrice": 600,
+    "maxPrice": 700,
+    "minTime": 60,
+    "maxTime": 0,
+    "description": "Ця процедура включає: зняття старого матеріалу, манікюр, покриття гель лаком однотонне."
+  },
+  {
+    "id": 5,
+    "imageUrl": [
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686481171/Sveta-beauty/Product%20card/Nails/Kompleks%20gel%20lak%20french/1652100746_5-krasavica-info-p-fr_lsgwma.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686481298/Sveta-beauty/Product%20card/Nails/Kompleks%20gel%20lak%20french/1652100820_11-krasavica-info-p-f_yweapd.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686481614/Sveta-beauty/Product%20card/Nails/Kompleks%20gel%20lak%20french/1652100869_32-krasavica-info-p-f_brbyw9.jpg"
+    ],
+    "title": "Манікюрний комплекс(френч)",
+    "minPrice": 700,
+    "maxPrice": 800,
+    "minTime": 80,
+    "maxTime": 0,
+    "description": "Ця процедура включає: зняття старого матеріалу, манікюр, покриття гель лаком френч."
+  },
+  {
+    "id": 6,
+    "imageUrl": [
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686484585/Sveta-beauty/Product%20card/Nails/Nar%20nails/IMG_5701_1_qij9kl.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686484479/Sveta-beauty/Product%20card/Nails/Nar%20nails/IMG_1554_1_wgokfd.png",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686484222/Sveta-beauty/Product%20card/Nails/Nar%20nails/IMG_0962_1_1_yn34tp.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686484372/Sveta-beauty/Product%20card/Nails/Nar%20nails/IMG_6938_1_ad9foi.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686485014/Sveta-beauty/Product%20card/Nails/Nar%20nails/IMG_6422_1_aq7ukn.png"
+    ],
+    "title": "Нарощування нігтів гель, полігель",
+    "minPrice": 1000,
+    "maxPrice": 800,
+    "minTime": 120,
+    "maxTime": 180,
+    "description": "Полігель – це унікальний за своїми характеристиками матеріал для манікюру, в якому поєднуються властивості гелю та акрилу. Полігель з'явився в нігтьової індустрії нещодавно, але сьогодні він - один з найпопулярніших матеріалів для нарощування нігтів (як у професіоналів, так і у майстрів-початківців)."
+  },
+  {
+    "id": 7,
+    "imageUrl": [
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686485692/Sveta-beauty/Product%20card/Nails/korrection%20nails/IMG_5695_1_as7prn.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686485803/Sveta-beauty/Product%20card/Nails/korrection%20nails/Snapseed_1_eqbym6.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686485474/Sveta-beauty/Product%20card/Nails/korrection%20nails/104588857_300205224360307_762321_rpkpjx.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686485474/Sveta-beauty/Product%20card/Nails/korrection%20nails/IMG_4484_1_zq5jtm.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683120649/Sveta-beauty/Product%20card/Nails/korrection%20nails/IMG_0962_1_1_kjlcgj.jpg"
+    ],
+    "title": "Корекція нарощених нігтів",
+    "minPrice": 800,
+    "maxPrice": 800,
+    "minTime": 90,
+    "maxTime": 150,
+    "description": "Корекція нарощених нігтів: як часто і для чого потрібна Корекція після нарощування гелем або акрилом проводиться через 2-4 тижні, залежно від швидкості відростання власних нігтів. При дотриманні термінів вдасться зберегти здоров'я та цілісність натуральних та завжди мати привабливий манікюр."
+  },
+  {
+    "id": 8,
+    "imageUrl": [
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687013262/Sveta-beauty/Product%20card/Nails/Nail_franch/1579147249_2-3_1_mrrhvo.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687013261/Sveta-beauty/Product%20card/Nails/Nail_franch/1-54_1_uhr1ho.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687013262/Sveta-beauty/Product%20card/Nails/Nail_franch/IMG_8454_1_h0emyk.png",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687013261/Sveta-beauty/Product%20card/Nails/Nail_franch/1636769318_5-modnica-club-p-klas_vbbbld.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687013261/Sveta-beauty/Product%20card/Nails/Nail_franch/2_kdmund.jpg"
+    ],
+    "title": "Викладний френч",
+    "minPrice": 1200,
+    "maxPrice": 0,
+    "minTime": 180,
+    "maxTime": 0,
+    "description": "Що таке викладний френч? Викладний френч – техніка, що дозволяє подовжити ніготь за допомогою гелю та створити гарну лінію «усмішки». Завдяки цьому способу можна отримати будь-яку форму нігтя, будь то овал, квадрат або мигдаль."
+  },
+  {
+    "id": 9,
+    "imageUrl": [
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687014596/Sveta-beauty/Product%20card/Nails/pedic/Kombinirovannyj-pedikyur-Harkov_1_yginuq.png",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687014596/Sveta-beauty/Product%20card/Nails/pedic/classic_pedicure_prew_1_gsl257.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687014768/Sveta-beauty/Product%20card/Nails/pedic/617557df15e12e4fa946ed379ec42e98_1_euosi0.jpg"
+    ],
+    "title": "Педекюр класичний",
+    "minPrice": 500,
+    "maxPrice": 0,
+    "minTime": 60,
+    "maxTime": 0,
+    "description": "Класичний педикюр - це процедура, при якій використовуються залізні інструменти для обрізання зайвої шкіри навколо нігтів, а суха шкіра, що наросла, на стопі забирається спеціальними пилками."
+  },
+  {
+    "id": 10,
+    "imageUrl": [
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687100618/Sveta-beauty/Product%20card/Nails/pedic_classic/14607_2_1_qaesnj.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687100618/Sveta-beauty/Product%20card/Nails/pedic_classic/IMG_5276_1_vxzbkk.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687100618/Sveta-beauty/Product%20card/Nails/pedic_classic/french4_1_hvx2ah.jpg"
+    ],
+    "title": "Педекюр (комплекс)",
+    "minPrice": 700,
+    "maxPrice": 0,
+    "minTime": 80,
+    "maxTime": 0,
+    "description": "У процедуру входить крім класичного педекюру, зняття старого матеріалу та однотонне покриття."
+  },
+  {
+    "id": 11,
+    "imageUrl": [
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687101013/Sveta-beauty/Product%20card/Nails/pedic_french/2-11_1_scwbdk.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687101013/Sveta-beauty/Product%20card/Nails/pedic_french/krasivyj-pedikyur_1_etq67w.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687101013/Sveta-beauty/Product%20card/Nails/pedic_french/vika_nogti_minsk62_1_vnztkj.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687101013/Sveta-beauty/Product%20card/Nails/pedic_french/b94edb51a25c0bffd831b8339b92bf2f_1_dy5rft.jpg"
+    ],
+    "title": "Педекюр (комплекс-френч)",
+    "minPrice": 800,
+    "maxPrice": 0,
+    "minTime": 80,
+    "maxTime": 0,
+    "description": "У процедуру входить крім класичного педекюру, зняття старого матеріалу та покриття френч."
+  },
+  {
+    "id": 12,
+    "imageUrl": [
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687101386/Sveta-beauty/Product%20card/Nails/parafin/Picture1_251_1_tuouo1.png",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687101386/Sveta-beauty/Product%20card/Nails/parafin/2409115_1_jtfec4.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687101386/Sveta-beauty/Product%20card/Nails/parafin/IMG_8971_1_jtyasu.jpg",
+      "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687101386/Sveta-beauty/Product%20card/Nails/parafin/SPA_manikyur_1_qybhs0.jpg"
+    ],
+    "title": "Парафіно терапія ",
+    "minPrice": 400,
+    "maxPrice": 0,
+    "minTime": 30,
+    "maxTime": 0,
+    "description": "Парафінотерапія — це косметологічна процедура по догляду за шкірою з використанням розігрітого парафіну. На сьогоднішній день парафінотерапія є дуже популярною. Вона не нова і бере витоки в давнині. Але саме в наш час вона набула нового значення і вдосконалювалась. Ця gроцедура дуже ефективна, тому й популярна серед жінок різного віку і навіть деяких чоловіків. Крім поліпшення зовнішнього вигляду шкіри, також виводяться токсини. Після парафінотерапії ефект тримається значний час, що робить процедуру дуже привабливою для клієнтів спа-салонів. Дуже добре діє парафінотерапія на шкіру рук взимку, відновлює після морозів та усуває сухість."
+  }
+]

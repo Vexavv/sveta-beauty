@@ -1,0 +1,114 @@
+.List{
+  height: 100%;
+  margin: 15px 0;
+  background-color: var(--primary-color);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+  box-shadow: 0 3px 15px 13.5px #6b6666;
+  &Content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 5px 10px;
+    width: 100%;
+    &Description {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &List2 {
+      }
+
+      &List {
+        list-style: none;
+        //font-family: var(--font-banner);
+        //font-size: 18px;
+        //font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        width: 100%;
+
+        li a {
+
+          font-family: var(--font-banner);
+          font-size: 18px;
+          font-weight: bold;
+
+
+
+          padding: 5px 0;
+          color: var(--textList-color);
+        }
+        span{
+          font-size: 35px;
+          font-weight: 700;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 600px) {
+  .List {
+
+    &Content {
+      padding: 5px 20px;
+
+      &Description {
+        &List2 {
+        }
+        &List {
+          //font-size: 22px;
+
+          li a {
+            padding: 7px 0;
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .List {
+    box-shadow: none;
+    &:hover {
+      transition: all .5s ease;
+      box-shadow: 0 3px 15px 13.5px #6b6666;
+      -webkit-box-shadow: 0 3px 15px 13.5px #6b6666;
+      -moz-box-shadow: 0 3px 15px 13.5px #6b6666;
+    }
+
+
+    &Content {
+      &Description {
+        &List2 {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          padding: 5px 10px;
+
+        }
+        &List {
+          //font-size: 25px;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px;
+          padding-left: 15px;
+          width: 70%;
+
+          li a {
+            padding: 10px 0;
+            font-size: 25px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.H1 {
+  font-family: var(--font-banner);
+  font-size: 20px;
+  color: #525151;
+}
+
+.H2 {
+  font-family: var(--font-banner);
+  font-size: 25px;
+}
+
+.H3 {
+  font-family: var(--font-banner);
+  text-decoration: underline;
+  font-size: 20px;
+  text-align: center;
+}
+.H4{
+  font-family: var(--font-banner);
+  text-decoration: underline;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .H1 {
+    font-size: 25px;
+  }
+  .H2{
+    font-size: 35px;
+  }
+  .H3 {
+    font-size: 25px;
+  }
+  .H4{
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 900px) {
+  .H1 {
+    font-size: 45px;
+  }
+  .H2{
+    font-size: 45px;
+  }
+  .H3 {
+    font-size: 35px;
+  }
+  .H4{
+
+    font-size: 25px;
+  }
+}

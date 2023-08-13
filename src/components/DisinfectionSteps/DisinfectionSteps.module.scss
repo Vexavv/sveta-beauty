@@ -1,0 +1,55 @@
+.Steps {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  border: 5px solid var(--border-color);
+  &List{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+img{
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+    &Content{
+      padding: 5px;
+    }
+    &Text{
+      font-family: var(--font-banner);
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+
+}
+@media (min-width: 600px) {
+  .Steps {
+    &List{
+      display: flex;
+      flex-direction: row;
+      img{
+        width: 50%;
+      }
+      &Text{
+        font-size: 15px;
+      }
+    }
+
+  }
+}
+@media (min-width: 900px) {
+  .Steps {
+    &List{
+      img{
+        width: 50%;
+      }
+      &Text{
+        font-size: 20px;
+      }
+    }
+
+  }
+}
