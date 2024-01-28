@@ -53,7 +53,7 @@
       "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686480634/Sveta-beauty/Product%20card/Nails/Kompleks%20gel%20lak/This_item_is_unavailable_-_Etsy_s2d4da.jpg"
     ],
     "title": "Манікюрний комплекс",
-    "minPrice": 600,
+    "minPrice": 700,
     "maxPrice": 700,
     "minTime": 60,
     "maxTime": 0,
@@ -67,7 +67,7 @@
       "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686481614/Sveta-beauty/Product%20card/Nails/Kompleks%20gel%20lak%20french/1652100869_32-krasavica-info-p-f_brbyw9.jpg"
     ],
     "title": "Манікюрний комплекс(френч)",
-    "minPrice": 700,
+    "minPrice": 800,
     "maxPrice": 800,
     "minTime": 80,
     "maxTime": 0,
@@ -83,7 +83,7 @@
       "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1686485014/Sveta-beauty/Product%20card/Nails/Nar%20nails/IMG_6422_1_aq7ukn.png"
     ],
     "title": "Нарощування нігтів гель, полігель",
-    "minPrice": 1000,
+    "minPrice": " від 1000",
     "maxPrice": 800,
     "minTime": 120,
     "maxTime": 180,
@@ -99,7 +99,7 @@
       "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1683120649/Sveta-beauty/Product%20card/Nails/korrection%20nails/IMG_0962_1_1_kjlcgj.jpg"
     ],
     "title": "Корекція нарощених нігтів",
-    "minPrice": 800,
+    "minPrice": " від 800",
     "maxPrice": 800,
     "minTime": 90,
     "maxTime": 150,
@@ -129,7 +129,7 @@
       "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687014768/Sveta-beauty/Product%20card/Nails/pedic/617557df15e12e4fa946ed379ec42e98_1_euosi0.jpg"
     ],
     "title": "Педекюр класичний",
-    "minPrice": 500,
+    "minPrice": 600,
     "maxPrice": 0,
     "minTime": 60,
     "maxTime": 0,
@@ -143,7 +143,7 @@
       "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687100618/Sveta-beauty/Product%20card/Nails/pedic_classic/french4_1_hvx2ah.jpg"
     ],
     "title": "Педекюр (комплекс)",
-    "minPrice": 700,
+    "minPrice": 800,
     "maxPrice": 0,
     "minTime": 80,
     "maxTime": 0,
@@ -158,7 +158,7 @@
       "https://res.cloudinary.com/dj9e1wjcg/image/upload/v1687101013/Sveta-beauty/Product%20card/Nails/pedic_french/b94edb51a25c0bffd831b8339b92bf2f_1_dy5rft.jpg"
     ],
     "title": "Педекюр (комплекс-френч)",
-    "minPrice": 800,
+    "minPrice": 900,
     "maxPrice": 0,
     "minTime": 80,
     "maxTime": 0,
