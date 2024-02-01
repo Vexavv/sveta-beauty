@@ -27,7 +27,7 @@ function AboutGallery(props) {
 
     return (
         <div className={styles.Gallery}>
-            <HTag tag='h2'> Наши роботи</HTag>
+            <HTag tag='h2'> Наші роботи</HTag>
             <Box sx={{ width: '80%', height: 600, overflowY: 'scroll', margin: "0 auto" }}>
                 <ImageList variant="masonry" cols={3} gap={8}>
                     {gallery.map((item) => (
