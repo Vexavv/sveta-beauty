@@ -14,7 +14,7 @@ function About(props) {
             <BannerAbout/>
             <Container maxWidth="xl">
                 <AboutMe/>
-                <List title='Наши послуги' tag1='Нігтьовий сервіс' tag2='Перманентний макіяж' tag3='Макіяж брів' renderFunction={renderDataList}/>
+                <List title='Послуги' tag1='Нігтьовий сервіс' tag2='Перманентний макіяж' tag3='Макіяж брів' renderFunction={renderDataList}/>
                 <AboutGallery/>
             </Container>
 

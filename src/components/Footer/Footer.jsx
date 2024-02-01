@@ -13,7 +13,7 @@ function Footer(props) {
                     <div className={styles.FooterContent}>
                         <h3>НАШІ КОНТАКТИ</h3>
                         <span className={styles.FooterContentText}>
-                       <Link to='/'>Sveta Beauty</Link> <br/> Знаходимось ми на Позняках неподалік від станції метро, а само:<br/> м.Київ вул.Анни Ахматової, 13Г<br/><Link to='/contacts'><span>На мапі</span> </Link>
+                       <Link to='/'>Sveta Beauty</Link> <br/> Знаходимось ми на Позняках неподалік від станції метро, а саме:<br/> м.Київ вул.Анни Ахматової, 13Г<br/><Link to='/contacts'><span>На мапі</span> </Link>
                     </span>
                         <span className={styles.FooterContentPhone}>
                         Phone:
